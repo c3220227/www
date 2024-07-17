@@ -18,7 +18,9 @@
         padding: 20px;
         margin: 20px 0;
         max-width: 30%;
-        float: left;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .section1{
         background-color: lightblue;
@@ -48,7 +50,7 @@
     }
     @media (min-width: 850px) {
     section{
-        flex: 1 1 calc(33%-40px);
+        flex: 1 1 calc(33.33%-40px);
         margin: 20px;
     }   
     }
